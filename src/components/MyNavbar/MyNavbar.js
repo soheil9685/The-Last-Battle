@@ -18,11 +18,11 @@ function MyNavbar() {
                 <Navbar.Brand href="#">
                     <img className="w-25" src={logo} alt="logo" />
                 </Navbar.Brand>
-                <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
+                <Navbar.Toggle className="ms-auto" aria-controls={`offcanvasNavbar-expand-${expand}`} />
                 <Navbar.Offcanvas
                     id={`offcanvasNavbar-expand-${expand}`}
                     aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
-                    placement="end"
+                    placement="start"
                 >
                     <Offcanvas.Header closeButton>
                         <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>

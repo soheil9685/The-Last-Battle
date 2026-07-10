@@ -9,15 +9,15 @@ function Hero() {
         <>
             <section className="py-5" id="Hero">
                 <Container>
-                    <Row>
-                        <Col className="col-6 mt-5 d-flex flex-column align-items-start">
+                    <Row className="gy-5">
+                        <Col className="col-12 col-lg-6 mt-5 d-flex flex-column align-items-start">
                             <h2 className="fs-1 lalezar">آخرین نبرد</h2>
-                            <p className="fs-4 estedad">
+                            <p className="fs-5 estedad">
                                 <Typewriter
                                     cursor={true}
                                     cursorBlinking={true}
-                                    loop={0}
-                                    words={["به سوی نابودی اسراییل ..."]}
+                                    typeSpeed = {50}
+                                    words={["پس از دوران تاریک قتل و اشغالگری رژیم صهیونیستی سرانجام مردم منطقه و محور مقاومت به طور بی‌سابقه ای با یکدیگر متحد شده اند تا کار این رژیم را یکسره کنند. فرماندهی این سپاه بزرگ که از اکثر کشورهای منطقه در آن به گونه ای حضور دارند، به شما سپرده شده است. مقصد نهایی شما قدس است."]}
                                 />
                             </p>
                             <div className="buttonContainer mt-5">
@@ -29,7 +29,7 @@ function Hero() {
                                 </Button>
                             </div>
                         </Col>
-                        <Col className="col-6">
+                        <Col className="col-12 col-lg-6">
                             <img className="heroImg img-fluid" src={HeroImg} alt="" />
                         </Col>
                     </Row>
