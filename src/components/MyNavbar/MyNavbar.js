@@ -6,14 +6,14 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Offcanvas from 'react-bootstrap/Offcanvas';
-import logo from "../../assets/images/5942602422918255037.png"
+import logo from "../../assets/images/logo.png"
 
 function MyNavbar() {
 
     const expand = "lg";
 
     return (
-        <Navbar expand={expand} className="mb-3">
+        <Navbar expand={expand}>
             <Container>
                 <Navbar.Brand href="#">
                     <img className="w-25" src={logo} alt="logo" />
@@ -31,7 +31,7 @@ function MyNavbar() {
                     </Offcanvas.Header>
                     <Offcanvas.Body>
                         <Nav className="justify-content-end flex-grow-1 pe-3">
-                            <Nav.Link href="#">خانه</Nav.Link>
+                            <Nav.Link href="#Hero">خانه</Nav.Link>
                             <Nav.Link href="#">Link</Nav.Link>
                         </Nav>
                     </Offcanvas.Body>
