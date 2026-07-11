@@ -9,7 +9,7 @@ function Hero() {
         <>
             <section className="py-5" id="Hero">
                 <Container className="pt-5">
-                    <Row className="gy-5">
+                    <Row className="gy-5" >
                         <Col className="col-12 col-lg-6 mt-5 pt-4 d-flex flex-column align-items-start">
                             <h2 className="fs-1 lalezar">آخرین نبرد</h2>
                             <p className="fs-5 estedad">

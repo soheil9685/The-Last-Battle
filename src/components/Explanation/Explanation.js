@@ -1,7 +1,7 @@
 import { Col, Container, Row } from "react-bootstrap";
 import "./Explanation.css"
 import boardGame from "../../assets/images/Playing board game.jpg"
-import { Brain, Check, ListSortDescending, Timer, User, Users } from "lucide-react";
+import { Brain, Check, Dices, Info, ListSortDescending, Target, Timer, User, Users } from "lucide-react";
 
 function Explanation() {
 
@@ -12,12 +12,12 @@ function Explanation() {
             content: "تعداد بازیکن: 3 یا 4 بازیکن"
         },
         {
-            id : 2,
-            icon: ListSortDescending,
-            content : "سبک بازی: کارتی - جنگی"
+            id: 2,
+            icon: Target,
+            content: "سبک بازی: کارتی - جنگی"
         },
         {
-            id : 3,
+            id: 3,
             icon: User,
             content: "رده سنی 11 سال به بالا"
         },
@@ -45,6 +45,7 @@ function Explanation() {
                         </Col>
                         <Col className="col-12 col-lg-6 d-flex align-items-center">
                             <div className="box estedad p-4">
+                                <h3 className="lalezar mb-3">اطلاعات بازی</h3>
                                 {data.map(item => {
                                     const Icon = item.icon;
 
@@ -54,6 +55,10 @@ function Explanation() {
                                         </div>
                                     )
                                 })}
+                                <h3 className="lalezar mt-5 mb-3">محتویات جعبه</h3>
+                                <div className="item">
+                                    <Dices /> 72 عدد کارت
+                                </div>
                             </div>
                         </Col>
                     </Row>

@@ -32,7 +32,7 @@ function MyNavbar() {
                     <Offcanvas.Body>
                         <Nav className="justify-content-end flex-grow-1 pe-3">
                             <Nav.Link href="#Hero">خانه</Nav.Link>
-                            <Nav.Link href="#">Link</Nav.Link>
+                            <Nav.Link href="#Explanation">معرفی بازی</Nav.Link>
                         </Nav>
                     </Offcanvas.Body>
                 </Navbar.Offcanvas>
