@@ -1,12 +1,15 @@
 #Purchase{
-    background-color: #D4AF37;
+    background-color: #677E61;
 }
 .qoute{
-    background-color: #1f6f78;
+    background-color: #F1DEC4;
     border-right: 4px solid #0F172A;
     border-left: 4px solid #0F172A;
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.qoute h6{
+    color: #BD4444 !important;
 }
 .board-Game{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;

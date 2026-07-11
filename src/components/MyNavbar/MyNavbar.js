@@ -16,7 +16,7 @@ function MyNavbar() {
         <Navbar fixed="top" expand={expand}>
             <Container>
                 <Navbar.Brand href="#">
-                    <img className="w-25" src={logo} alt="logo" />
+                    <img width={"200px"} className="" src={logo} alt="logo" />
                 </Navbar.Brand>
                 <Navbar.Toggle className="ms-auto" aria-controls={`offcanvasNavbar-expand-${expand}`} />
                 <Navbar.Offcanvas
