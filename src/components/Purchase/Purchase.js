@@ -35,7 +35,7 @@ function Purchase() {
         <section className="pt-5" id="Purchase">
             <h1 className="lalezar text-center">خرید بازی</h1>
             <Container>
-                <Row className="pt-5">
+                <Row className="pt-5 gy-4">
                     <Col className="col-12 col-lg-6 text-center">
                         <div className="qoute p-2">
                             <h6 className="estedad mb-3">برای عضویت در کانال های آخرین نبرد روی لینک های زیر کلیک کنید.</h6>

@@ -13,7 +13,7 @@ function MyNavbar() {
     const expand = "lg";
 
     return (
-        <Navbar expand={expand}>
+        <Navbar fixed="top" expand={expand}>
             <Container>
                 <Navbar.Brand href="#">
                     <img className="w-25" src={logo} alt="logo" />

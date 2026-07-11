@@ -22,10 +22,10 @@ function Hero() {
                             </p>
                             <div className="buttonContainer mt-5">
                                 <Button className="rounded-pill px-3" variant="warning">
-                                    <a className="estedad" href="">خرید محصول</a>
+                                    <a className="estedad" href="#Purchase">خرید محصول</a>
                                 </Button>
                                 <Button className="rounded-pill px-3 mx-2" variant="outline-warning">
-                                    <a className="estedad" href="">آموزش</a>
+                                    <a className="estedad" href="#Training">آموزش</a>
                                 </Button>
                             </div>
                         </Col>
