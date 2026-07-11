@@ -33,6 +33,8 @@ function MyNavbar() {
                         <Nav className="justify-content-end flex-grow-1 pe-3">
                             <Nav.Link href="#Hero">خانه</Nav.Link>
                             <Nav.Link href="#Explanation">معرفی بازی</Nav.Link>
+                            <Nav.Link href="#Training">آموزش بازی</Nav.Link>
+                            <Nav.Link href="#Purchase">خرید</Nav.Link>
                         </Nav>
                     </Offcanvas.Body>
                 </Navbar.Offcanvas>

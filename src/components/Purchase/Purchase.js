@@ -38,7 +38,18 @@ function Purchase() {
                 <Row className="mt-5">
                     <Col className="col-12 col-lg-6 text-center">
                         <div className="qoute p-2">
-                            <h6 className="estedad">برای ثبت سفارش روی لینک های زیر کلیک کنید. <br /><br /></h6>
+                            <h6 className="estedad mb-3">برای عضویت در کانال های آخرین نبرد روی لینک های زیر کلیک کنید.</h6>
+                            <span className="mx-2">
+                                <a href="https://web.telegram.org/a/#-1003967370535">
+                                    <img width={"30px"} src={telegramIcon} alt="تلگرام" />
+                                </a>
+                            </span>
+                            <span className="mx-2">
+                                <a href="https://web.bale.ai/chat/search?uid=5521739207">
+                                    <img width={"30px"} src={baleIcon} alt="تلگرام" />
+                                </a>
+                            </span>
+                            <h6 className="estedad mb-3 mt-4">برای ثبت سفارش به پشتیبانی در پیامرسان های زیر پیام دهید.</h6>
                             <div className="iconContainer">
                                 {
                                     icons.map(icon => (
