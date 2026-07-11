@@ -1,0 +1,14 @@
+#Purchase{
+    background-color: #D4AF37;
+}
+.qoute{
+    background-color: #1f6f78;
+    border-right: 4px solid #0F172A;
+    border-left: 4px solid #0F172A;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.board-Game{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+}
