@@ -4,7 +4,7 @@ import TrainingVideo from "../../assets/images/vlc-record-2026-05-29-03h34m19s-s
 
 function Training() {
     return (
-        <section id="Training">
+        <section className="py-5" id="Training">
             <h1 className="lalezar text-center" style={{ color: "#0F172A" }}>آموزش بازی</h1>
             <Container>
                 <Row>
