@@ -32,7 +32,7 @@ function Purchase() {
     ]
 
     return (
-        <section className="pt-5" id="Purchase">
+        <section className="py-5" id="Purchase">
             <h1 className="lalezar text-center">خرید بازی</h1>
             <Container>
                 <Row className="pt-5 gy-4">

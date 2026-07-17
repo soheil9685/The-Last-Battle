@@ -1,5 +1,6 @@
 import "./App.css"
 import Explanation from "./components/Explanation/Explanation";
+import Footer from "./components/Footer/Footer";
 import Hero from "./components/Hero/Hero";
 import MyNavbar from "./components/MyNavbar/MyNavbar";
 import Purchase from "./components/Purchase/Purchase";
@@ -13,6 +14,7 @@ function App() {
             <Explanation />
             <Training />
             <Purchase />
+            <Footer />
         </>
     )
 }
