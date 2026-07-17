@@ -8,7 +8,7 @@ import Training from "./components/Training/Training";
 function App() {
     return (
         <>
-            <MyNavbar />
+            <MyNavbar />    
             <Hero />
             <Explanation />
             <Training />

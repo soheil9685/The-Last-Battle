@@ -1,14 +1,35 @@
-#Hero{
+#Hero {
     background-color: #BD4444;
+    background-image: url("../../assets//images/Hero\ Background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
 }
-.heroImg{
+
+.heroImg {
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     border-radius: 10px;
 }
-button a{
+
+button a {
     color: #000 !important;
     text-decoration: none;
 }
-p{
+
+.heroTextContainer {
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.19);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.6px);
+    -webkit-backdrop-filter: blur(2.6px);
+}
+
+.heroTextContainer h2{
+    color: #091413;
+}
+
+.heroTextContainer p {
     text-align: justify;
+    color: #091413 !important;
 }
